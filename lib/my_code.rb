@@ -36,5 +36,7 @@ def reduce_to_any_true(source_array)
   for i in source_array
   if i 
     return TRUE
-    
+  end
+end
+false
 end

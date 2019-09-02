@@ -26,6 +26,7 @@ def reduce_to_all_true(source_array)
   if i
     next
   else
+    return FALSE
     
 end
 

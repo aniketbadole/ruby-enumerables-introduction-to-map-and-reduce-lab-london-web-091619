@@ -21,22 +21,20 @@ def reduce_to_total(source_array, starting_point=0)
 end
 
 def reduce_to_all_true(source_array)
-  #source_array.reduce { |i| i }
   for i in source_array
-  if i
-    next
-  else
-    return FALSE
+    if i
+      next
+    else
+      return false
+    end
   end
-end
 end
 
 def reduce_to_any_true(source_array)
-  source_array.reduce { |i| i }
   for i in source_array
-  if i 
-    return TRUE
+    if i 
+      return true
+    end
   end
-end
-false
+  false
 end

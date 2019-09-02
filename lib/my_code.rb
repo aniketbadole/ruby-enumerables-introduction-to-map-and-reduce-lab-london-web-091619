@@ -1,5 +1,5 @@
 def map_to_negativize(source_array) {
-  source_array.map { |i| i * -1 }
+  return source_array.map { |i| i * -1 }
 }
 
 def map_to_no_change(source_array) {

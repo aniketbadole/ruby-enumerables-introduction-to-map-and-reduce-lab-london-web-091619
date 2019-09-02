@@ -23,6 +23,7 @@ end
 def reduce_to_all_true(source_array)
   #source_array.reduce { |i| i }
   source_array.reduce { |i| i }
+  source_array.map{|e| !!e}
 end
 
 def reduce_to_any_true(source_array)

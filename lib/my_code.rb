@@ -22,7 +22,7 @@ end
 
 def reduce_to_all_true(source_array)
   #source_array.reduce { |i| i }
-  source_array.reduce { |i| return false if source_array[i] == false }
+  source_array do { |i| return false if source_array[i] == false }
 end
 
 def reduce_to_any_true(source_array)
